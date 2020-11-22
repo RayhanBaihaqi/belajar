@@ -1,0 +1,212 @@
+CRITICAL - 2020-11-21 00:09:34 --> Class 'App\Models\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->user()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 00:16:04 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->index()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 20:23:32 --> Object of class App\Controllers\Admin\Users could not be converted to string
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:24:12 --> Object of class App\Controllers\Admin\Users could not be converted to string
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:26:21 --> Object of class App\Controllers\Admin\Users could not be converted to string
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:28:06 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:30:25 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:31:02 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 20:33:49 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 20:34:59 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:38:44 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:39:05 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:39:15 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:39:43 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 20:41:19 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('2')
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 20:41:59 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('2')
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 20:43:23 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->edit('2')
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 20:43:40 --> Object of class App\Controllers\Admin\Users could not be converted to string
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:43:58 --> Object of class App\Controllers\Admin\Users could not be converted to string
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:44:21 --> Object of class App\Controllers\Admin\Users could not be converted to string
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:44:40 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 45, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:47:14 --> Undefined variable: model
+#0 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 51, Array)
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->update()
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-21 20:49:05 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 21:03:11 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 21:06:27 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:06:42 --> Column 'name' cannot be null
+#0 C:\laragon\www\belajar-ci\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\belajar-ci\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\belajar-ci\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\belajar-ci\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\belajar-ci\app\Controllers\admin\Users.php(34): CodeIgniter\Model->insert(Array)
+#6 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#7 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-21 21:08:06 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:10:32 --> Class 'App\Controllers\Admin\UsersModel' not found
+#0 C:\laragon\www\belajar-ci\system\CodeIgniter.php(918): App\Controllers\Admin\Users->store()
+#1 C:\laragon\www\belajar-ci\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\laragon\www\belajar-ci\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\belajar-ci\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-21 21:12:40 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:13:38 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:17:22 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:17:25 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:17:26 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:17:27 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:17:32 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:17:45 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:18:08 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-21 21:19:54 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
